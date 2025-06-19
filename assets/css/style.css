@@ -2,8 +2,156 @@
     width: 80px;
 }
 
+#sec {
+    padding-top: 100px;
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+}
+
+.para {
+    font-size: 16px;
+    color: #424141;
+}
+
+.text-para {
+    font-size: 16px;
+    color: #424141;
+    line-height: 25px;
+}
+
+.fa-solid {
+    color: #3498db;
+    font-size: 30px;
+}
+
+.fa-circle-question {
+    color: #79bae5;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+#text {
+    text-align: center;
+    margin: auto;
+    width: 850px;
+    gap: 20px;
+}
+
+.text {
+    color: rgb(152, 147, 147);
+    font-size: 15px;
+}
+
+.text2 {
+    color: hsl(0, 1%, 23%);
+    font-size: 18px;
+}
+
+a.link {
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    color: #3498db;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+}
+
+a.link:hover {
+    background-color: #3498db;
+    color: white;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+
+.three {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.text3 {
+    display: grid;
+    gap: 20px;
+}
+
+#btn-style {
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.btn-style {
+    background-color: #3498db;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btn-style:hover {
+    background-color: #3498db;
+    color: #fff;
+}
 @media (max-width: 768px) {
     #image {
         width: 40px;
-    }   
+    }  
+
+    #sec {
+        padding-top: 50px;
+    }
+    
+    .box {
+        display: grid;
+        gap:45px;
+    }
+
+    .w3l-blog .card{
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    #text {
+        width: 100%;
+    }
+
+    .text2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .title-content {
+        text-align: center;
+    }
+
+    .w3l-clients p.test-p {
+        line-height: 20px;
+    }
+
+    .w3l-features .box-wrap h4 a  {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .w3l-features p.test-p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .text3 {
+        gap: 0;
+    }
 }
